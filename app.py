@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
-BUCKET = "img-mgr-test-tmc"
+BUCKET = "cfngin-tmc-common-us-west-1"
 
 @app.route("/")
 def home():
